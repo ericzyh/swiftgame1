@@ -7,12 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		98199E1B1A0F4050008DD739 /* GameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98199E1A1A0F4050008DD739 /* GameModel.swift */; };
+		98199E1D1A0F410C008DD739 /* BlockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98199E1C1A0F410C008DD739 /* BlockView.swift */; };
+		98199E1F1A0F412D008DD739 /* BlockBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98199E1E1A0F412D008DD739 /* BlockBoardView.swift */; };
+		98199E211A0F50B4008DD739 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98199E201A0F50B4008DD739 /* GameViewController.swift */; };
 		982BB6D81A0F0B0B00D5ED91 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982BB6D71A0F0B0B00D5ED91 /* AppDelegate.swift */; };
 		982BB6DA1A0F0B0B00D5ED91 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982BB6D91A0F0B0B00D5ED91 /* ViewController.swift */; };
 		982BB6DD1A0F0B0B00D5ED91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 982BB6DB1A0F0B0B00D5ED91 /* Main.storyboard */; };
 		982BB6DF1A0F0B0B00D5ED91 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 982BB6DE1A0F0B0B00D5ED91 /* Images.xcassets */; };
 		982BB6E21A0F0B0B00D5ED91 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 982BB6E01A0F0B0B00D5ED91 /* LaunchScreen.xib */; };
 		982BB6EE1A0F0B0B00D5ED91 /* swiftgame1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982BB6ED1A0F0B0B00D5ED91 /* swiftgame1Tests.swift */; };
+		982F63B71A0F148B0015FAC4 /* util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982F63B61A0F148B0015FAC4 /* util.swift */; };
+		986E467D1A0F338B00C94D82 /* TopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 986E467C1A0F338B00C94D82 /* TopViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +32,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		98199E1A1A0F4050008DD739 /* GameModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameModel.swift; sourceTree = "<group>"; };
+		98199E1C1A0F410C008DD739 /* BlockView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlockView.swift; sourceTree = "<group>"; };
+		98199E1E1A0F412D008DD739 /* BlockBoardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlockBoardView.swift; sourceTree = "<group>"; };
+		98199E201A0F50B4008DD739 /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		982BB6D21A0F0B0B00D5ED91 /* swiftgame1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftgame1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		982BB6D61A0F0B0B00D5ED91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		982BB6D71A0F0B0B00D5ED91 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +46,8 @@
 		982BB6E71A0F0B0B00D5ED91 /* swiftgame1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swiftgame1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		982BB6EC1A0F0B0B00D5ED91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		982BB6ED1A0F0B0B00D5ED91 /* swiftgame1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftgame1Tests.swift; sourceTree = "<group>"; };
+		982F63B61A0F148B0015FAC4 /* util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = util.swift; sourceTree = "<group>"; };
+		986E467C1A0F338B00C94D82 /* TopViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		98199E181A0F4012008DD739 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				98199E1C1A0F410C008DD739 /* BlockView.swift */,
+				98199E1E1A0F412D008DD739 /* BlockBoardView.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		98199E191A0F4031008DD739 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				98199E1A1A0F4050008DD739 /* GameModel.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
 		982BB6C91A0F0B0B00D5ED91 = {
 			isa = PBXGroup;
 			children = (
@@ -77,12 +106,17 @@
 		982BB6D41A0F0B0B00D5ED91 /* swiftgame1 */ = {
 			isa = PBXGroup;
 			children = (
+				98199E191A0F4031008DD739 /* Models */,
+				98199E181A0F4012008DD739 /* Views */,
 				982BB6D71A0F0B0B00D5ED91 /* AppDelegate.swift */,
 				982BB6D91A0F0B0B00D5ED91 /* ViewController.swift */,
 				982BB6DB1A0F0B0B00D5ED91 /* Main.storyboard */,
 				982BB6DE1A0F0B0B00D5ED91 /* Images.xcassets */,
 				982BB6E01A0F0B0B00D5ED91 /* LaunchScreen.xib */,
 				982BB6D51A0F0B0B00D5ED91 /* Supporting Files */,
+				982F63B61A0F148B0015FAC4 /* util.swift */,
+				986E467C1A0F338B00C94D82 /* TopViewController.swift */,
+				98199E201A0F50B4008DD739 /* GameViewController.swift */,
 			);
 			path = swiftgame1;
 			sourceTree = "<group>";
@@ -212,8 +246,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98199E1B1A0F4050008DD739 /* GameModel.swift in Sources */,
+				986E467D1A0F338B00C94D82 /* TopViewController.swift in Sources */,
+				982F63B71A0F148B0015FAC4 /* util.swift in Sources */,
+				98199E1D1A0F410C008DD739 /* BlockView.swift in Sources */,
+				98199E211A0F50B4008DD739 /* GameViewController.swift in Sources */,
 				982BB6DA1A0F0B0B00D5ED91 /* ViewController.swift in Sources */,
 				982BB6D81A0F0B0B00D5ED91 /* AppDelegate.swift in Sources */,
+				98199E1F1A0F412D008DD739 /* BlockBoardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,6 +447,7 @@
 				982BB6F31A0F0B0B00D5ED91 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		982BB6F41A0F0B0B00D5ED91 /* Build configuration list for PBXNativeTarget "swiftgame1Tests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +456,7 @@
 				982BB6F61A0F0B0B00D5ED91 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
